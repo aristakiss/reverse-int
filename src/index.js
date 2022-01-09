@@ -1,5 +1,4 @@
 module.exports = function reverse (n) {
-    console.log(n);
     n = Math.abs(n);
     let tempN = (n < 100) ? '0' + n.toString() : n.toString();
     let output = '';
